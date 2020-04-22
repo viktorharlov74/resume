@@ -12,6 +12,9 @@
     padding: 6px;
     color: #000;
 }
+
+
+
 .telegram a:hover {background: #249bd7; color: #fff;}
 .vk a:hover {background: #5d84ae; color: #fff;}
 .instagram a:hover {background: #3f729b; color: #fff;}
@@ -30,7 +33,7 @@
   text-decoration: none;
 }
 .headborder{
-	    border-bottom: 5px solid black;
+	    border-bottom: 4px solid black;
 		max-width: 230px;
 }
 .skills{
@@ -43,6 +46,15 @@ span .infotext{
 	padding: 1rem 0;
     text-align: center;
 
+}
+
+.popSite{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+span.badge{
+    font-weight: 500;
 }
 .centertext{
 	text-align: center;
@@ -196,15 +208,108 @@ a.info{
 a.info:hover{
   text-decoration: none !important;
 }
+
+.mob-img.pd
+{
+    padding-top: 55px;
+}
+.info-all{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    height: 100%;
+    margin-bottom: 10px;
+}
+.info-pref{
+    width: 100%;
+
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+.mob-img{
+    border-radius: 10px;
+}
+.mob-img-litle{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#open-popup {
+  padding: 20px;
+}
+
+.headInfo{
+    font-size: 60px;
+}
+.siteContent{
+    display: none;
+    position: relative;
+    z-index: 1000;
+    margin:0 25% 0 25%;
+    width:50%;
+    color: red;
+}
+
+.item.site{
+    width: auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    min-height: 100px;
+    height: 100%;
+    background: red;
+
+}
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  height: auto;
+}
+.onehun {
+  height: 100%;
+  background: red;
+}
 @media (max-width: 576px){
 	.centertext{
 		color: gray;
 		font-weight: bold;
 	}
+    .popSite{
+        width: 120px;
+    }
 	.social a{
 		float: center;
 	}
 	.featurette-heading{
 		text-align: center;
 	}
+
+    .mfp-content {
+            top: -2500px;
+    }
+    .headInfo {
+        font-size: 20px;
+    }
+
+    .mob-img{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mob-img>img{
+        width: 100%;
+    }
 }
