@@ -34,7 +34,7 @@
 }
 .headborder{
 	    border-bottom: 4px solid black;
-		max-width: 230px;
+		max-width: 245px;
 }
 .skills{
 	text-align: center;
@@ -49,7 +49,7 @@ span .infotext{
 }
 
 .popSite{
-    width: 200px;
+    width: 190px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -281,7 +281,38 @@ a.info:hover{
   height: 100%;
   background: red;
 }
+
+
+.plabel{
+    text-align: left;
+    padding-right:2px;
+    padding-left: 2px;
+}
+img.icon{
+    width: 16px !important;
+    height: 16px;
+}
+
+h4.prevHead{
+    text-align: left;
+    font-size: 18px;
+}
+
+.fansi img {
+ -moz-transition: all 0.3s ease-out;
+ -o-transition: all 0.3s ease-out;
+ -webkit-transition: all 0.3s ease-out;
+ }
+ 
+.fansi img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
 @media (max-width: 576px){
+    h4.prevHead{
+        font-size: 15px;
+    }
 	.centertext{
 		color: gray;
 		font-weight: bold;
@@ -297,7 +328,7 @@ a.info:hover{
 	}
 
     .mfp-content {
-            top: -2500px;
+            /*top: -2150px;*/
     }
     .headInfo {
         font-size: 20px;
@@ -311,5 +342,11 @@ a.info:hover{
 
     .mob-img>img{
         width: 100%;
+    }
+    .info-all {
+    width: 90%;
+    }
+    .white-popup {
+        padding: 20px;
     }
 }
