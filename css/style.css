@@ -32,9 +32,16 @@
   color: #fff;
   text-decoration: none;
 }
+
+h1{
+
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 .headborder{
-	    border-bottom: 4px solid black;
-		max-width: 245px;
+
 }
 .skills{
 	text-align: center;
@@ -48,6 +55,32 @@ span .infotext{
 
 }
 
+.img-opit{
+    width: 183px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.avatar{
+    width: 90%;
+}
+.img-soft{
+    width: 150px;
+    text-align: center;
+}
+
+.img-sovet{
+     margin-top: 10px;
+    width: 183px;
+    text-align: center;
+}
+.prodv{
+    margin-top: 20px;
+}
+.timework{
+    color: grey;
+}
 .popSite{
     width: 190px;
     margin: 0 auto;
@@ -246,7 +279,8 @@ a.info:hover{
 }
 
 .headInfo{
-    font-size: 60px;
+    font-size: 48px;
+    margin-bottom: 30px;
 }
 .siteContent{
     display: none;
@@ -257,6 +291,15 @@ a.info:hover{
     color: red;
 }
 
+.text-info-portfolio{
+    font-size: 18px;
+    text-align: center;
+}
+.href-info{
+    border: 2px solid #b2cad7;
+    margin: 30px auto 30px;
+    padding: 30px 0;
+}
 .item.site{
     width: auto;
     border: 2px solid red;
@@ -313,6 +356,9 @@ h4.prevHead{
     h4.prevHead{
         font-size: 15px;
     }
+    .avatar{
+        width: 100%;
+    }
 	.centertext{
 		color: gray;
 		font-weight: bold;
@@ -348,5 +394,6 @@ h4.prevHead{
     }
     .white-popup {
         padding: 20px;
+        top: 0px;
     }
 }
