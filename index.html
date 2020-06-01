@@ -1353,9 +1353,16 @@
 				$(this).addClass("active");
 			});
 
-			// $('.popSite').click(function(){
-			// 	$('body,html').animate({scrollTop:0},700);
-			// })
+			$('.popSite').click(function(element){
+				                 var click = $(this).index();
+                //  console.log(element);
+                // console.log(click);
+                // console.log("Сработала блядь");
+                var contentSelector=$(this).attr('atrPop');
+                // console.log(contentSelector);
+               // $("."+contentSelector).show();
+                $("."+contentSelector).click();
+			});
 			$('.close-case').click(function(){
 				$('.mfp-close').click();
 			});
@@ -1391,15 +1398,16 @@
 				});
 
 
-              owl.on('click', '.popSite', function (element) {
-				                 var click = $(this).index();
-				                 console.log(element);
-                // console.log(click);
-                var contentSelector=$(this).attr('atrPop');
-                // console.log(contentSelector);
-               // $("."+contentSelector).show();
-                $("."+contentSelector).click();
-             });
+             //  owl.on('click', '.popSite', function (element) {
+             //     var click = $(this).index();
+             //     console.log(element);
+             //    console.log(click);
+             //    console.log("Сработала блядь");
+             //    var contentSelector=$(this).attr('atrPop');
+             //    // console.log(contentSelector);
+             //   // $("."+contentSelector).show();
+             //    $("."+contentSelector).click();
+             // });
 
             });
 	</script>
